@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+   
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -14,7 +15,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 
       <!-- style css -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <!-- Responsive-->
@@ -24,7 +25,9 @@
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
       <!-- font awesome -->
@@ -188,7 +191,7 @@
                                  <div class="tshirt_img"><img src="images/a562df9a117748d46886a0f7dfe0f4cfNU.jpg"></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">mua ngay</a></div>
-                                    <div class="seemore_bt"><a href="#">xem them</a></div>
+                                    <div class="seemore_bt"><a href="">xem them</a></div>
                                  </div>
                               </div>
                            </div>

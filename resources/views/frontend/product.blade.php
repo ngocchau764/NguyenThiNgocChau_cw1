@@ -320,10 +320,10 @@
             </div>
             <div class="footer_menu">
                <ul>
-                  <li><a href="#">Trang Chủ</a></li>
+                  <li><a href="index.html">Trang Chủ</a></li>
                   <li><a href="product.html">Sản Phẩm</a></li>
-                  <li><a href="#">Sản Phẩm Mới</a></li>
-                  <li><a href="#">Giảm Giá</a></li>
+                  <li><a href="product_detail.html"> Chi Tiết Sản Phẩm </a></li>
+                  <li><a href="contact.html">Liên hệ</a></li>
                   <li><a href="#">Đăng Kí Tài Khoản</a></li>
                </ul>
             </div>
